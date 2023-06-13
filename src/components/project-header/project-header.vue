@@ -3,7 +3,7 @@
     <div class="info al-c">
       <el-image
         :src="projectInfo.avatar"
-        fit="contain"
+        fit="cover"
         class="al-c f-center"
         style="width: 40px; height: 40px; border-radius: 50%"
       >
