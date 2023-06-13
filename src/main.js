@@ -38,6 +38,7 @@ Vue.prototype.$message = Message;
 Vue.prototype.$loading = Loading.service;
 Vue.config.productionTip = false;
 Vue.prototype.$store = store;
+document.title = "IPNS LinkShare";
 store.dispatch("getProjectInfo");
 new Vue({
   store,
